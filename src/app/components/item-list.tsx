@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { HiPencilAlt } from "react-icons/hi";
-import DeleteButton from "./DeleteButton";
+import DeleteButton from "./delete-button";
 
 const ItemList = async () => {
     return (
