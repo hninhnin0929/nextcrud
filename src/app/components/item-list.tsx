@@ -13,7 +13,7 @@ const ItemList = async () => {
                 </div>
                 <div className="flex gap-2">
                     <DeleteButton />
-                    <Link href={`/editItem/1`}>
+                    <Link href={`/edit-item/1`}>
                         <HiPencilAlt size={24} />
                     </Link>
                 </div>
