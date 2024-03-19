@@ -1,8 +1,13 @@
 import Image from "next/image";
+import ItemList from "./components/ItemList";
 
 export default function Home() {
   return (
-    
-    <div>Welcome to CRUD ap!</div>
+    <div>
+      <ItemList />
+      <ItemList />
+      <ItemList />
+      <ItemList />
+    </div>
   );
 }
